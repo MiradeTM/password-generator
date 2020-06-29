@@ -33,12 +33,11 @@ if (specialOption) {
 
 
 for (var i = 0; i < lengthOption; i++) {
-  console.log(allArr);
   //it will pick one random letter from allArr and push it to passwordArr  
  var selectedChar = allArr[Math.floor(Math.random () * allArr.length)];
  passwordArr.push(selectedChar);
 }
-return passwordArr;
+return passwordArr.join('');
 }
 // Write password to the #password input
 function writePassword() {
