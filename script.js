@@ -36,7 +36,6 @@ for (var i = 0; i < lengthOption; i++) {
   console.log(allArr);
   //it will pick one random letter from allArr and push it to passwordArr  
  var selectedChar = allArr[Math.floor(Math.random () * allArr.length)];
- concat(selectedChar);
  passwordArr.push(selectedChar);
 }
 return passwordArr;
